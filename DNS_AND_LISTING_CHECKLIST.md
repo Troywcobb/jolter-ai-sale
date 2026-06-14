@@ -11,7 +11,7 @@ Current Railway deployment:
 - Environment: `production`
 - Deployment ID: `ff00d2e9-6236-403d-8a09-84fa9bbf2600`
 - Verified Railway URL: https://jolterai-sale-production.up.railway.app
-- Verification: HTTP 200; hero sale headline, `FOR SALE NOW`, `$49,500`, and `Troywcobb@gmail.com` present.
+- Verification: HTTP 200; hero sale headline, `FOR SALE NOW`, `$14,995`, Afternic CTA, and fallback `Troywcobb@gmail.com` present.
 
 To point `jolter.ai` at Railway:
 
@@ -24,9 +24,13 @@ To point `jolter.ai` at Railway:
 
 Note: Railway CLI deployment/status auth worked, but CLI custom-domain creation returned `Unauthorized. Please run railway login again.` Add the custom domain in the dashboard if the CLI remains blocked.
 
-## 2) Offer email
+## 2) Buyer routing
 
-The landing page Make Offer buttons send directly to:
+The landing page CTAs drive buyers to Afternic:
+
+https://www.afternic.com/forsale/jolter.ai
+
+Fallback contact text remains:
 
 Troywcobb@gmail.com
 
@@ -36,8 +40,8 @@ No domain email forwarding is required for the CTA.
 
 List with this pricing:
 
-- BIN: $49,500
-- Minimum offer / marketplace floor: $25,000
+- BIN: $14,995
+- Minimum offer / marketplace floor: $5,000
 - Transaction: escrow / marketplace escrow
 
 Recommended marketplaces:
@@ -45,15 +49,16 @@ Recommended marketplaces:
 1. Afternic
    - Best distribution.
    - Add jolter.ai.
-   - Set Buy Now $49,500.
-   - Set minimum offer and floor price to $25,000. Marketplace floor cannot be lower than minimum offer.
+   - Set Buy Now $14,995.
+   - Set minimum offer and floor price to $5,000. Marketplace floor cannot be lower than minimum offer.
    - If using Afternic landers, decide whether to replace GitHub Pages DNS with Afternic nameservers/lander records.
 
 2. Sedo
    - Add jolter.ai.
    - Verify ownership via DNS TXT if prompted.
-   - Set Buy Now $49,500.
+   - Set Buy Now $14,995.
    - Set Make Offer enabled.
+   - Set minimum offer / floor to $5,000 if Sedo exposes both fields.
 
 3. NameCheap Marketplace
    - Use as secondary listing if available.

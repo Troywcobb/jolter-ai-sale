@@ -4,10 +4,10 @@ Static landing page for selling `jolter.ai`.
 
 ## Recommended listing terms
 
-- Buy Now: `$49,500`
-- Minimum offer / marketplace floor: `$25,000`
-- Target close range: `$28,000–$37,000`
-- Private negotiation exception: consider `$20,000–$24,999` only if speed matters more than value and the sale is handled outside marketplace floor constraints.
+- Buy Now: `$14,995`
+- Minimum offer / marketplace floor: `$5,000`
+- Target close range: `$7,500–$12,500`
+
 
 ## Contact email
 
@@ -15,7 +15,7 @@ The page uses:
 
 `Troywcobb@gmail.com`
 
-The Make Offer buttons send directly to this inbox. No domain email forwarding is required for the landing page CTA.
+The lander drives buyers to Afternic first. This inbox remains fallback contact text only.
 
 ## Deploy options
 
@@ -47,6 +47,6 @@ Long description: Jolter.ai is short, clean, pronounceable, and venture-ready. �
 
 Suggested categories/tags: AI, agents, automation, monitoring, alerts, productivity, DevOps, security, workflow intelligence, startup brand
 
-Buy Now: $49,500
-Minimum offer / marketplace floor: $25,000
+Buy Now: $14,995
+Minimum offer / marketplace floor: $5,000
 Transaction: Escrow.com / Afternic / Sedo / marketplace escrow
