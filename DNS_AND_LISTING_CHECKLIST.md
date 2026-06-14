@@ -1,25 +1,28 @@
 # DNS and marketplace checklist for jolter.ai
 
-## 1) Point jolter.ai at GitHub Pages
+## 1) Railway deployment and DNS
 
-In NameCheap > Domain List > jolter.ai > Manage > Advanced DNS, add/update:
+Current Railway deployment:
 
-A records for apex/root:
-- Type: A Record | Host: @ | Value: 185.199.108.153 | TTL: Automatic
-- Type: A Record | Host: @ | Value: 185.199.109.153 | TTL: Automatic
-- Type: A Record | Host: @ | Value: 185.199.110.153 | TTL: Automatic
-- Type: A Record | Host: @ | Value: 185.199.111.153 | TTL: Automatic
+- Project: `jolter.ai-sale`
+- Project ID: `655f577a-47b5-4d00-8b94-1693e550548e`
+- Service: `jolter.ai-sale`
+- Service ID: `6e40e295-f584-4b34-a791-9dd68ab3a2fd`
+- Environment: `production`
+- Deployment ID: `ff00d2e9-6236-403d-8a09-84fa9bbf2600`
+- Verified Railway URL: https://jolterai-sale-production.up.railway.app
+- Verification: HTTP 200; hero sale headline, `FOR SALE NOW`, `$49,500`, and `domain-offers@jolter.ai` present.
 
-CNAME for www:
-- Type: CNAME Record | Host: www | Value: Troywcobb.github.io | TTL: Automatic
+To point `jolter.ai` at Railway:
 
-Optional IPv6 AAAA records:
-- Type: AAAA Record | Host: @ | Value: 2606:50c0:8000::153 | TTL: Automatic
-- Type: AAAA Record | Host: @ | Value: 2606:50c0:8001::153 | TTL: Automatic
-- Type: AAAA Record | Host: @ | Value: 2606:50c0:8002::153 | TTL: Automatic
-- Type: AAAA Record | Host: @ | Value: 2606:50c0:8003::153 | TTL: Automatic
+1. Railway dashboard > project `jolter.ai-sale` > service `jolter.ai-sale` > Settings > Networking/Domains.
+2. Add custom domain `jolter.ai`.
+3. Copy Railway's required DNS record(s).
+4. NameCheap > Domain List > `jolter.ai` > Manage > Advanced DNS.
+5. Add/replace the exact Railway DNS record(s).
+6. Wait for Railway domain verification, then test `https://jolter.ai`.
 
-After DNS resolves, enable GitHub Pages HTTPS enforcement for the repo.
+Note: Railway CLI deployment/status auth worked, but CLI custom-domain creation returned `Unauthorized. Please run railway login again.` Add the custom domain in the dashboard if the CLI remains blocked.
 
 ## 2) Configure offer email
 
