@@ -37,7 +37,7 @@ No domain email forwarding is required for the CTA.
 List with this pricing:
 
 - BIN: $49,500
-- Minimum offer: $25,000
+- Minimum offer / marketplace floor: $25,000
 - Transaction: escrow / marketplace escrow
 
 Recommended marketplaces:
@@ -46,7 +46,7 @@ Recommended marketplaces:
    - Best distribution.
    - Add jolter.ai.
    - Set Buy Now $49,500.
-   - Set floor/minimum offer $25,000 if available.
+   - Set minimum offer and floor price to $25,000. Marketplace floor cannot be lower than minimum offer.
    - If using Afternic landers, decide whether to replace GitHub Pages DNS with Afternic nameservers/lander records.
 
 2. Sedo

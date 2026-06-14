@@ -5,10 +5,9 @@ Static landing page for selling `jolter.ai`.
 ## Recommended listing terms
 
 - Buy Now: `$49,500`
-- Minimum offer: `$25,000`
+- Minimum offer / marketplace floor: `$25,000`
 - Target close range: `$28,000–$37,000`
-- Fast-sale floor: `$15,000–$20,000`
-- Recommended do-not-accept floor: `$20,000` unless speed matters more than value
+- Private negotiation exception: consider `$20,000–$24,999` only if speed matters more than value and the sale is handled outside marketplace floor constraints.
 
 ## Contact email
 
@@ -49,5 +48,5 @@ Long description: Jolter.ai is short, clean, pronounceable, and venture-ready. �
 Suggested categories/tags: AI, agents, automation, monitoring, alerts, productivity, DevOps, security, workflow intelligence, startup brand
 
 Buy Now: $49,500
-Minimum offer: $25,000
+Minimum offer / marketplace floor: $25,000
 Transaction: Escrow.com / Afternic / Sedo / marketplace escrow
