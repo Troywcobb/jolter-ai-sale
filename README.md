@@ -10,13 +10,13 @@ Static landing page for selling `jolter.ai`.
 - Fast-sale floor: `$15,000–$20,000`
 - Recommended do-not-accept floor: `$20,000` unless speed matters more than value
 
-## Contact email requirement
+## Contact email
 
 The page uses:
 
-`domain-offers@jolter.ai`
+`Troywcobb@gmail.com`
 
-Before pointing public traffic here, configure NameCheap email forwarding for that address or replace it in `index.html` with the preferred inbox.
+The Make Offer buttons send directly to this inbox. No domain email forwarding is required for the landing page CTA.
 
 ## Deploy options
 

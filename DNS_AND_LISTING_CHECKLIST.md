@@ -11,7 +11,7 @@ Current Railway deployment:
 - Environment: `production`
 - Deployment ID: `ff00d2e9-6236-403d-8a09-84fa9bbf2600`
 - Verified Railway URL: https://jolterai-sale-production.up.railway.app
-- Verification: HTTP 200; hero sale headline, `FOR SALE NOW`, `$49,500`, and `domain-offers@jolter.ai` present.
+- Verification: HTTP 200; hero sale headline, `FOR SALE NOW`, `$49,500`, and `Troywcobb@gmail.com` present.
 
 To point `jolter.ai` at Railway:
 
@@ -24,15 +24,13 @@ To point `jolter.ai` at Railway:
 
 Note: Railway CLI deployment/status auth worked, but CLI custom-domain creation returned `Unauthorized. Please run railway login again.` Add the custom domain in the dashboard if the CLI remains blocked.
 
-## 2) Configure offer email
+## 2) Offer email
 
-Create/confirm forwarding for:
+The landing page Make Offer buttons send directly to:
 
-domain-offers@jolter.ai
+Troywcobb@gmail.com
 
-Recommended target: your preferred inbox.
-
-The landing page already uses this address in the Make Offer buttons.
+No domain email forwarding is required for the CTA.
 
 ## 3) Marketplace listings
 

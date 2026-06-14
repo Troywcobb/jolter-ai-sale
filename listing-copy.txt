@@ -28,7 +28,7 @@ Pricing Notes:
 - Do-not-accept floor unless urgent: $20,000
 
 Landing Page Contact Email:
-domain-offers@jolter.ai
+Troywcobb@gmail.com
 
-DNS/Email TODO:
-Configure forwarding for domain-offers@jolter.ai or replace the mailto address before public launch.
+DNS/Email Note:
+The landing page Make Offer buttons send directly to Troywcobb@gmail.com. No domain email forwarding is required for the CTA.
