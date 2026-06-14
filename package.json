@@ -1,0 +1,12 @@
+{
+  "name": "jolter-ai-sale",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static sale landing page for jolter.ai",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
